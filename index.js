@@ -5,11 +5,11 @@ import {
   Text,
   Modal,
   Dimensions,
-  Picker,
   StyleSheet,
   TouchableOpacity,
   Platform
 } from 'react-native';
+import {Picker} from '@react-native-community/picker';
 import PropTypes from 'prop-types';
 import BaseComponent from './BaseComponent';
 import webRegionAPI from './webRegionAPI';
